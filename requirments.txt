@@ -1,7 +1,9 @@
 streamlit
 tensorflow
+tf-nightly
 pandas
 numpy
 scikit-learn
 tensorboard
 matplotlib
+
