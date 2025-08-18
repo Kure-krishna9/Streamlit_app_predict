@@ -1,10 +1,9 @@
 import streamlit as st
 import pandas as pd
 import numpy as np
-import tensorflow as tf
 from sklearn.preprocessing import StandardScaler,LabelEncoder,OneHotEncoder
 import pickle
-
+import tensorflow as tf
 # load the pretrain model
 model=tf.keras.models.load_model('model.h5')
 
@@ -92,4 +91,5 @@ if prediction_proba>0.5:
     print("customer is likely to churn")
     
 else:
+
     print("customer is not likely to churn")
